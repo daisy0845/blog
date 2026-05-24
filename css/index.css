@@ -1,0 +1,39 @@
+.tab-item{
+    text-align: center;
+    color: var(--color-neutral-700);
+}
+.tab-item.active, 
+.tab-item:hover{
+    background-color: var(--color-primary-900);
+    color: var(--color-neutral-0);
+}
+.tab-link{
+    display:block;
+    padding: 12px 0
+}
+.card-content {
+    flex:1;
+    color: var(--color-neutral-700);
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    gap: 12px;
+}
+.align-items-content{
+    align-items: center;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.gap-12{
+    gap: 12px;
+}
+.text-20{
+    font-size: 20px;
+}
+.mr-4{
+    margin-right: 4px;
+}
+.mt-24{
+    margin-top: 24px;
+}
